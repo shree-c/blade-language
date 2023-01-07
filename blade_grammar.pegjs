@@ -1,6 +1,6 @@
-start = block
+start = block*
 
-block = delimitor* tag:tag delimitor+ style:style_info delimitor+ body:tag_block delimitor* {
+block = delimitor* tag:tag delimitor+ style:style_info*  body:tag_block delimitor* {
   return {
     tag,
     style,
@@ -18,32 +18,6 @@ tag_block = "{" delimitor* body:tag_body delimitor* "}" {
 
 tag_body = block*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 delimitor = " " / "\n"
 
 tag_name = "p" / "h1" / "h2" / "h3" / "h4" / "h5" / "h6"
@@ -53,8 +27,6 @@ style_info = "[" delimitor* style_body:style_content delimitor* "]" {
 }
 
 style_content = sentence / ''
-
-
 
 // a sentence is bunch of alphanumeric characters
 // a sentence is concatanation of words seperated by space; a word is group of alphanumeric characters without any space

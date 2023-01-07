@@ -1,0 +1,3 @@
+- Let's write a parser (understands syntax and converts to internal data structure that is easily convertable to other language formats) without worrying about wrong syntax right now.
+  - There are certain reserved symbols which should be escaped before they are used in content
+- I will later write a syntax checker

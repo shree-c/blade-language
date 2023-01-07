@@ -1,0 +1,16 @@
+{
+  "name": "blade-language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js test.bl",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
+}
