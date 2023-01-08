@@ -1,7 +1,10 @@
-(p) {
-  (h2) [ ok h2 ] {
-    ok h2 body
+(p) []{
+  what the hell;
+  (i) [] {
+
+    inside i block;
+    (h1) [] {
+      this is deepest;
+    }
   }
 }
-
-
