@@ -54,7 +54,6 @@ sentence = start_word:word rest_words:rest_words* semicolon {
 rest_words = all_delimitor+ word:word {
   return word
 }
-
 word = letter:letter+ {
   return letter.join('')
 }

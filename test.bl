@@ -1,10 +1,15 @@
-(p) []{
-  what the hell;
-  (i) [] {
-
-    inside i block;
-    (h1) [] {
-      this is deepest;
+(p) [] {
+  (h1) []{
+    this is my list;
+  }
+  (ul) [] {
+    (li) [] {
+      (h2) [] {
+        this is bold list item 1;
+      }
+    }
+    (li) [] {
+      list item 2;
     }
   }
 }
